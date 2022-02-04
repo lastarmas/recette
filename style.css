@@ -1,0 +1,147 @@
+.block1 {
+    overflow: auto;
+}
+ 
+body{
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -20px; 
+    padding: 8px 45px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 22px;   
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+.categorie{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    overflow: visible;
+}
+p.desc {
+    
+    max-width: 450px;
+    display: inline-block;
+    font-size: 14px;
+
+}
+.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px ;
+    min-height: 350px;
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+    overflow: visible;
+
+
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    margin-top: 5px;
+}
+.desc {
+    
+    display:block;
+
+}
+.ligne {
+    height: 1px;
+    width: 200px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 10px;
+
+}
+.info {
+    position: relative; 
+}
+table.info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: blanchedalmond;
+    background-color: #6c829dc0;
+    height: 80px;
+}
+table.info td {
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+}
+table.info th {
+    font-size: 22px;
+    font-weight: bold;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+img.info {
+    display: block;
+    min-width: 350px;
+    min-height: 350px;
+    background-color: lightgray;
+    object-fit: cover;
+}
+.colonne {
+    width: 45%;
+    margin-top: 20px;
+    
+}
+.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-bottom: 5px solid #6c829d;
+    padding-bottom: 5px;
+}
+.colonne1 {
+    display: inline-block;
+}
+.colonne2 {
+    float: right;
+}
+.ingredients p {
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    padding: 10px 0px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+}
+.preparation td {
+    vertical-align: top;
+}
+.preparation tr {
+    height: 40px;
+}
+.numero {
+    background-color: #6c829d;
+    color: white;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 4px;
+    border-radius: 50%;
+    margin: 0;
+}
+.etape {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
